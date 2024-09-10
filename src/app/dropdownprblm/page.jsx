@@ -31,7 +31,7 @@ const Dropdown = () => {
 
             </select>
 
-            <select value={country} >
+            <select value={country}>
                 {
                     countries[country].cities.map((item, index) => {
                         return <option value={index} key={index}>{item} </option>
