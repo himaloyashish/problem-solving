@@ -7,7 +7,7 @@ const Dropdown = () => {
 
     const countries = [
         {
-            name: "india", value: "IN", cities: ["Kolkata", "Delhi"]
+            name: "india", value: "IN" , cities: ["Kolkata", "Delhi"]
         },
         {
             name: "Nepal", value: "NP", cities: ["Kathmandu", "Selong"]
